@@ -1,0 +1,104 @@
+        <resources>
+            <string name="app_name">通话录音上传精灵</string>
+            <string name="default_uploading_message">正在上传录音...</string>
+            <string name="uploading_specific_file">正在上传: %s</string>
+            <string name="upload_notification_title">文件上传: %s</string>
+
+            <string name="app_title">通话自动录音上传</string>
+            <string name="app_icon_description">App图标</string>
+            <string name="status_checking_permissions">正在检查权限...</string>
+            <string name="button_service_status">服务状态</string>
+            <string name="button_grant_overlay_permission">授予悬浮窗权限</string>
+            <string name="important_notes">重要提示:
+1. 请确保已授予所有必要权限 (包括悬浮窗权限以显示上传状态)。
+2. 通话录音功能受Android版本和手机制造商限制。
+3. 后台运行可能受系统省电策略影响，请将本应用加入白名单。
+4. 录音文件将尝试上传至预设服务器。
+5. 请遵守当地关于通话录音的法律法规。</string>
+
+                <string name="upload_notification_channel_name">文件上传</string>
+                <string name="upload_notification_channel_description">文件上传状态通知</string>
+
+                <string name="upload_notification_title_template">正在上传: %1$s</string>
+                <string name="uploading_file_message">正在上传 %1$s...</string>
+                <string name="status_upload_preparing">准备上传...</string>
+                <string name="status_uploading">上传中...</string>
+                <string name="status_upload_success">上传成功！</string>
+                <string name="status_upload_failed_server">上传失败: %1$s</string>
+                <string name="status_upload_failed_response_parse_error">上传错误 (响应解析): %1$s</string>
+                <string name="status_upload_failed_http_error">上传失败 (HTTP %1$d): %2$s</string>
+                <string name="status_upload_error_io">上传错误 (网络): %1$s</string>
+                <string name="status_upload_error_unknown">上传错误 (未知): %1$s</string>
+
+
+                <string name="recording_service_channel_name">通话录音服务通道</string>
+                <string name="recording_service_channel_description">通话录音前台服务通道</string>
+                <string name="notification_recording_service_running">通话录音服务正在运行</string>
+                <string name="notification_title_recording_service">通话录音服务</string>
+                <string name="toast_failed_to_access_create_recordings_directory">无法访问/创建录音目录</string>
+                <string name="toast_failed_to_set_audio_source">无法设置录音源: %1$s</string>
+                <string name="toast_recording_started">录音开始: %1$s</string>
+                <string name="toast_recording_start_failed">录音启动失败: %1$s</string>
+                <string name="notification_text_recording">正在录音: %1$s</string>
+                <string name="notification_text_recording_in_progress">进行中</string>
+                <string name="toast_recording_saved">录音已保存: %1$s</string>
+                <string name="notification_text_recording_saved_preparing_upload">录音已保存，准备上传...</string>
+                <string name="toast_recorded_file_invalid">录音文件无效</string>
+                <string name="notification_text_recording_failed_or_invalid">录音失败或文件无效</string>
+                <string name="notification_text_recording_service_standby">通话录音服务待命中</string>
+                <string name="toast_file_added_to_upload_queue">文件已加入上传队列</string>
+
+                <string name="auto_upload_status_unknown">自动上传服务状态: 未知</string>
+                <string name="auto_upload_status_active">自动上传服务状态: 活动中</string>
+                <string name="auto_upload_status_idle">自动上传服务状态: 待命</string>
+                <string name="manual_select_upload_button">手动选择文件上传</string>
+                <string name="recording_log_title">录音上传记录:</string>
+                <string name="manual_upload_button_text">上传</string>
+                <string name="status_checking_status">查看状态中...</string>
+                <string name="status_queued">排队中</string>
+                <string name="status_uploading_manual">手动上传中...</string>
+                <string name="status_queued_manual">手动上传排队...</string>
+                <string name="status_upload_success_generic">上传成功!</string>
+                <string name="status_upload_failed_generic">上传失败.</string>
+                <string name="status_blocked">等待条件</string>
+                <string name="status_cancelled">已取消</string>
+                <string name="overlay_permission_granted_toast">悬浮窗权限授予成功！</string>
+                <string name="overlay_permission_not_granted_toast">悬浮窗权限未授予。</string>
+                <string name="status_overlay_granted">悬浮窗权限已成功授予。</string>
+                <string name="status_overlay_still_not_granted">悬浮窗权限仍未授予。</string>
+                <string name="no_recording_files">无录音记录。</string>
+                <string name="choose_audio_file_title">选择要上传的录音文件</string>
+                <string name="file_manager_missing_toast">请安装文件管理器.</string>
+                <string name="error_getting_file_path">无法获取文件路径，请尝试其他文件或应用.</string>
+                <string name="file_selected_toast">已选择文件: %s</string>
+
+
+                <string name="please_grant_base_permissions">请授予基本权限。</string>
+                <string name="service_managed_auto_toast">服务由电话状态自动管理。</string>
+                <string name="service_start_auto_toast">服务将由电话呼叫自动启动。</string>
+                <string name="overlay_permission_granted_text_status">悬浮窗权限已授予。</string>
+                <string name="overlay_permission_not_granted_text_status">悬浮窗权限未授予。</string>
+                <string name="cannot_open_overlay_settings">无法打开悬浮窗设置界面</string>
+                <string name="overlay_permission_already_granted_toast">悬浮窗权限已授予。</string>
+                <string name="service_running_auto_short">服务运行中 (自动)</string>
+                <string name="service_standby_auto_short">服务待命 (自动)</string>
+                <string name="overlay_permission_granted_button">悬浮窗权限已授予</string>
+                <string name="grant_overlay_permission_button">授予悬浮窗权限</string>
+                <string name="overlay_permission_legacy_button">悬浮窗权限 (API &lt; 23)</string>
+                <string name="attempting_manual_upload">尝试手动上传: %s</string>
+                <string name="service_running_auto_status">自动上传服务状态: 运行中</string>
+                <string name="auto_upload_processing_queue">自动上传服务状态: 处理队列中...</string>
+                <string name="auto_upload_standby_status">自动上传服务状态: 待命</string>
+
+            <string name="some_permissions_denied">部分权限被拒绝。</string>
+            <string name="please_grant_all_permissions">请授予所有必要权限。</string>
+            <string name="base_permissions_granted">所有基本权限已授予。</string>
+
+
+            <string name="file_not_exist_or_empty">文件 \"%s\" 不存在或是空的。</string>
+            <string name="status_queued_manual_selection">已选文件排队上传...</string>
+            <string name="status_queued_manual_retry">重试上传已入队...</string>
+            <string name="upload_request_queued">\"%s\" 已加入上传队列。</string>
+            <string name="overlay_permission_revoked_toast">悬浮窗权限已被撤销。</string>
+
+            </resources>
